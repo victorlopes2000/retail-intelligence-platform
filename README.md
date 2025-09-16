@@ -20,7 +20,61 @@ This platform scrapes data from major retailers (e.g., Walmart, Amazon, Target),
 - **ETL**: Python (data cleaning + normalization)  
 - **Dashboard**: Streamlit (charts, tables, exports)  
 
----
+
+## ⚡ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/retail-intelligence-platform.git
+cd retail-intelligence-platform
+```
+
+### 2. Create Virtual Environment & Install Dependencies
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+### 3. Install Playwright
+```bash
+playwright install
+```
+### 4. Create .env File
+```bash
+retail_intelligence/
+│
+├── retail_intelligence/   # Scrapy project files
+│   ├── settings.py
+│   ├── spiders/
+│   └── ...
+├── .env                   # 🔑 Environment variables here
+├── scrapy.cfg
+├── requirements.txt
+└── README.md
+```
+### 5. Setup PostgreSQL Database
+```sql
+CREATE DATABASE retail_intelligence;
+```
+
+Configure connection in `.env` file:
+```
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=retail_intelligence
+DB_USER=your_username
+DB_PASS=your_password
+```
+
+### 6. Run Scrapy Spider
+```bash
+scrapy crawl walmart -o walmart_data.json
+```
+
+### 7. Run Streamlit Dashboard
+```bash
+streamlit run dashboard/app.py
+```
 
 ## 🔹 License
 This project is licensed under the **MIT License** – completely free for both personal and commercial use.  
