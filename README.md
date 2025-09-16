@@ -52,7 +52,11 @@ retail_intelligence/
 ├── requirements.txt
 └── README.md
 ```
-### 5. Setup PostgreSQL Database
+### 5. Inside .env File 
+```bash
+SCRAPEOPS_API_KEY=your_scrapeops_api_key
+```
+### 6. Setup PostgreSQL Database
 ```sql
 CREATE DATABASE retail_intelligence;
 ```
@@ -66,12 +70,12 @@ DB_USER=your_username
 DB_PASS=your_password
 ```
 
-### 6. Run Scrapy Spider
+### 7. Run Scrapy Spider
 ```bash
 scrapy crawl walmart -o walmart_data.json
 ```
 
-### 7. Run Streamlit Dashboard
+### 8. Run Streamlit Dashboard
 ```bash
 streamlit run dashboard/app.py
 ```
