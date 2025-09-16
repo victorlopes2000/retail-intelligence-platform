@@ -1,0 +1,13 @@
+2025-09-16 15:48:54 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: retail_intelligence)
+2025-09-16 15:48:55 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.1',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.2.0 (OpenSSL 3.5.2 5 Aug 2025)',
+ 'cryptography': '45.0.7',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}

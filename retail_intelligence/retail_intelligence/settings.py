@@ -68,6 +68,7 @@ PLAYWRIGHT_CONTEXT_ARGS = {
     }
 }
 
+LOG_ENABLED = True
 LOG_LEVEL = "INFO"
 LOG_FILE = "logs/scrapy.log"
 RETRY_ENABLED = True
