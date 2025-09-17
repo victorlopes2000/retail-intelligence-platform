@@ -70,9 +70,9 @@ DB_USER=your_username
 DB_PASS=your_password
 ```
 
-### 7. Run Scrapy Spider
+### 7. Run the Scrapy spider with custom arguments to fetch products from the given URLs and save their HTML content locally.
 ```bash
-scrapy crawl walmart -o walmart_data.json
+scrapy crawl snapshot_spider -a query="mobile" -a product_limit=150  
 ```
 
 ### 8. Run Streamlit Dashboard
