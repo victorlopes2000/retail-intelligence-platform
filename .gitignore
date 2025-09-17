@@ -11,3 +11,4 @@ venv/
 # Scrapy logs and output
 logs/*
 !logs/.gitkeep
+html_pages/
