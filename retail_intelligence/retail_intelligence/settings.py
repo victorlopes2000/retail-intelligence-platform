@@ -7,6 +7,7 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+
 BOT_NAME = "retail_intelligence"
 
 SPIDER_MODULES = ["retail_intelligence.spiders"]
@@ -67,10 +68,19 @@ PLAYWRIGHT_CONTEXT_ARGS = {
         "Accept-Encoding": "gzip, deflate, br"
     }
 }
+import logging
+import os
 
+# Har run pe file clear karo
+if os.path.exists("logs/scrapy.log"):
+    open("logs/scrapy.log", "w").close()
+# Scrapy settings
 LOG_ENABLED = True
 LOG_LEVEL = "INFO"
 LOG_FILE = "logs/scrapy.log"
+LOG_FILE_MODE = 'w'
+LOG_STDOUT = False   # Ab sirf Scrapy ka log file mai jayega
+
 RETRY_ENABLED = True
 RETRY_TIMES = 5   # max retries
 RETRY_HTTP_CODES = [500, 502, 503, 504, 522, 524, 408, 429]
