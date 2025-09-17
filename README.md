@@ -70,7 +70,7 @@ DB_USER=your_username
 DB_PASS=your_password
 ```
 
-### 7. Run the Scrapy spider with custom arguments to fetch products from the given URLs and save their HTML content locally.
+### 7. Run the Scrapy spider with custom arguments to fetch products from the given URLs and save their HTML content locally...
 ```bash
 scrapy crawl snapshot_spider -a query="mobile" -a product_limit=150  
 ```

@@ -7,8 +7,10 @@ __pycache__/
 # Virtual environment
 venv/
 .env/
+retail_intelligence/.env
 
 # Scrapy logs and output
 logs/*
 !logs/.gitkeep
+retail_intelligence/retail_intelligence/logs/
 html_pages/
