@@ -8,5 +8,15 @@ import scrapy
 
 class RetailIntelligenceItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    price = scrapy.Field()
+    currency = scrapy.Field()
+    image_url = scrapy.Field()
+    product_url = scrapy.Field()
+    rating = scrapy.Field()
+    review_count = scrapy.Field()
+    brand = scrapy.Field()
+    platform = scrapy.Field()
+    bestseller= scrapy.Field()
+    
+    
