@@ -74,8 +74,15 @@ DB_PASS=your_password
 ```bash
 scrapy crawl snapshot_spider -a query="mobile" -a product_limit=150  
 ```
+### 8. After completing step 7, run the parser spider to parse the saved HTML files, clean the data, and store it in your PostgreSQL database. You can run it in two ways:
+```bash
+# Store results directly in PostgreSQL
+scrapy crawl snapshot_parser_spider
+# Or save output to a JSON file
+scrapy crawl snapshot_parser_spider -o data.json 
+```
 
-### 8. Run Streamlit Dashboard
+### 9. Run Streamlit Dashboard
 ```bash
 streamlit run dashboard/app.py
 ```

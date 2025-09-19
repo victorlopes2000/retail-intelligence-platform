@@ -151,7 +151,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    #"retail_intelligence.pipelines.PostgresPipeline": 300,
+    "retail_intelligence.pipelines.PostgresPipeline": 300,
 }
 
 
