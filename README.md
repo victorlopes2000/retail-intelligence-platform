@@ -4,13 +4,25 @@ An **enterprise-grade competitor intelligence solution** for retail and ecommerc
 This platform scrapes data from major retailers (e.g., Walmart, Amazon, Target), processes it via ETL workflows, stores in PostgreSQL, and provides interactive analytics with Streamlit.
 
 ---
+## 📸 Streamlit Dashboard Screenshots
+
+
+| Dashboard Home | Filter Side-bar | Cards And Products |
+|:--------------:|:---------------:|:------------------:|
+| <img src="images/complete_dashboard_streamlit.png" width="250" height="180"> | <img src="images/filter_side_bar.png" width="250" height="180"> | <img src="images/cards_and_products.png" width="250" height="180"> |
+
+
+| Top Products | Insights | bestseller |
+|:------------:|:--------:|:----------:|
+| <img src="images/top_products.png" width="250" height="180"> | <img src="images/insights.png" width="250" height="180"> | <img src="images/bestseller_reating_vs_price_charts.png" width="250" height="180"> |
+
+
+---
 
 ## 🚀 Scrapy Features
 - **Multi-site scraping** with Scrapy + Playwright (Walmart, Amazon, Target).
 - **ETL Pipeline** → Extract (scraping), Transform (cleaning/normalization), Load (PostgreSQL).
-- **Historical Trends** → 30-day price, stock, and rating analysis.
-- **Review Analysis** → AI-powered sentiment analysis (positive/negative/neutral).
-- **Streamlit Dashboard** → Visualize competitor trends, configure alerts, and export data.
+- **Streamlit Dashboard** → Visualize competitor trends, and export data.
 
 ---
 
@@ -59,7 +71,6 @@ This platform scrapes data from major retailers (e.g., Walmart, Amazon, Target),
   - Average price per platform (bar chart)  
 
 ---
-
 
 ## ⚡ Setup Instructions
 
