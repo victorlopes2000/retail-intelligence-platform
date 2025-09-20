@@ -5,7 +5,7 @@ This platform scrapes data from major retailers (e.g., Walmart, Amazon, Target),
 
 ---
 
-## 🚀 Features
+## 🚀 Scrapy Features
 - **Multi-site scraping** with Scrapy + Playwright (Walmart, Amazon, Target).
 - **ETL Pipeline** → Extract (scraping), Transform (cleaning/normalization), Load (PostgreSQL).
 - **Historical Trends** → 30-day price, stock, and rating analysis.
@@ -19,6 +19,46 @@ This platform scrapes data from major retailers (e.g., Walmart, Amazon, Target),
 - **Database**: PostgreSQL  
 - **ETL**: Python (data cleaning + normalization)  
 - **Dashboard**: Streamlit (charts, tables, exports)  
+---
+
+## 🚀 Stream-Lit Features
+
+- **Database Integration**
+  - Real-time connection with PostgreSQL  
+  - Auto data cleaning and type conversion  
+
+- **Interactive Filters**
+  - 🔍 Search products by title  
+  - 📦 Filter by platform  
+  - 💲 Price range slider  
+  - 🏷️ Bestseller filter (Yes/No)  
+  - ↕️ Sort by price or rating  
+
+- **Smart Product Cards**
+  - Product image, title, and price  
+  - ⭐ Star rating with review counts  
+  - Platform and bestseller badges  
+  - 🔗 Direct “Buy Now” product link  
+
+- **Pagination**
+  - 8 products per page (2 rows × 4 columns)  
+  - Sidebar page navigation  
+
+- **Top Products**
+  - ⭐ Top 5 Rated Products  
+  - 💬 Top 5 Most Reviewed Products  
+
+- **Data Export**
+  - ⬇️ Download filtered results as CSV  
+
+- **📊 Visual Insights (Altair Charts)**
+  - Platform share (bar chart)  
+  - Price distribution (histogram)  
+  - Bestseller breakdown (pie chart)  
+  - Rating vs Price (scatter chart with tooltips)  
+  - Average price per platform (bar chart)  
+
+---
 
 
 ## ⚡ Setup Instructions
@@ -82,7 +122,7 @@ scrapy crawl snapshot_parser_spider
 scrapy crawl snapshot_parser_spider -o data.json 
 ```
 
-### 9. Run Streamlit Dashboard
+### 9. After Streamlit installed.
 ```bash
 streamlit run dashboard/app.py
 ```
@@ -96,3 +136,9 @@ See the [LICENSE](LICENSE) file for details.
 ## 🔹 Author
 👨‍💻 Created & maintained by [Shahzaib Ali](https://github.com/shahzaib-1-no)  
 📬 For collaboration or freelance work: **sa4715228@gmail.com**  
+
+---
+
+## 🤝 Contributions
+Contributions, issues, and feature requests are welcome!  
+Feel free to open an [issue](../../issues/) or submit a PR.
